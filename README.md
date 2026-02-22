@@ -31,7 +31,7 @@ Status Code: `200 OK`
 
 
 Respuesta de Postman:
-```
+```json
 [
   {
     "NombreExamen": "alanina aminotransferasa",
@@ -67,7 +67,7 @@ Endpoint: /servicio
 Status Code: `201 Created`
 
 Cuerpo enviado en Postman:
-```
+```json
 {
   "NombreExamen": "NombreExamen 3",
   "abreviatura": "abreviatura 3",
@@ -78,7 +78,7 @@ Cuerpo enviado en Postman:
 }
 ```
 Respuesta de postman:
-```
+```json
 {
   "NombreExamen": "NombreExamen 3",
   "abreviatura": "abreviatura 3",
@@ -97,7 +97,7 @@ Endpoint: /servicio/3
 Status Code: `200 OK`
 
 Respuesta de Postman:
-```
+```json
 {
   "NombreExamen": "NombreExamen 3",
   "abreviatura": "abreviatura 3",
@@ -115,7 +115,7 @@ Status Code: `200 OK`
 Modificación: Se actualizó la abreviatura y el precio del registro con ID 3.
 
 Respuesta de Postman:
-```
+```json
 {
   "NombreExamen": "NombreExamen 3",
   "abreviatura": "ggt",
@@ -130,7 +130,7 @@ Respuesta de Postman:
 Status Code: `200 OK`
 
 Respuesta de Postman:
-```
+```json
 {
   "NombreExamen": "creatinina",
   "abreviatura": "cr",
@@ -148,7 +148,7 @@ Respuesta de Postman:
 Status Code: `404 Not Found`
 
 Respuesta de Postman:
-```
+```json
 "Not found"`
 ```
 ## 3. Resumen de Endpoints y Códigos HTTP
