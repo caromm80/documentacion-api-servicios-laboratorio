@@ -153,13 +153,13 @@ Respuesta de Postman:
 ```
 ## 3. Resumen de Endpoints y Códigos HTTP
 
-| Acción              | Método | Endpoint    | Código HTTP   |
-| ------------------- | ------ | ----------- | ------------- |
-| Obtener todos       | GET    | /servicio   | 200 OK        |
-| Crear               | POST   | /servicio   | 201 Created   |
-| Consultar registro  | GET    | /servicio/3 | 200 OK        |
-| Actualizar registro | PUT    | /servicio/3 | 200 OK        |
-| Eliminar registro   | DELETE | /servicio/2 | 200 OK        |
-| Recurso inexistente | GET    | /servicio/2 | 404 Not Found |
+| Acción              | Método | Endpoint     | Código HTTP   |
+| ------------------- | ------ | -----------  | ------------- |
+| Obtener todos       | GET    | `/servicio`  | 200 OK        |
+| Crear               | POST   | `/servicio`  | 201 Created   |
+| Consultar registro  | GET    | `/servicio/3`| 200 OK        |
+| Actualizar registro | PUT    | `/servicio/3`| 200 OK        |
+| Eliminar registro   | DELETE | `/servicio/2`| 200 OK        |
+| Recurso inexistente | GET    | `/servicio/2`| 404 Not Found |
 
 
