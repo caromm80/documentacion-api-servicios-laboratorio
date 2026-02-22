@@ -149,7 +149,7 @@ Status Code: `404 Not Found`
 
 Respuesta de Postman:
 ```json
-`"Not found"`
+"Not found"`
 ```
 ## 3. Resumen de Endpoints y Códigos HTTP
 
