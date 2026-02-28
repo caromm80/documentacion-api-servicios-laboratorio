@@ -123,7 +123,6 @@ Respuesta de Postman:
   "Parametros": {},
   "urgencia": [],
   "remitido": false,
-  "id": "3"
 }
 ```
 ### E. Eliminación de un registro (DELETE)
